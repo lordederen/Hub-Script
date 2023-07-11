@@ -32,7 +32,7 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("Name", "RJTheme3")
+local Window = Library.CreateLib("ilustrashe5 Hub", "RJTheme3")
 
 --Приветствие
 local Tab = Window:NewTab("Privet/Hello")
@@ -86,7 +86,7 @@ Section:NewButton("ESP", "ButtonInfo", function()
                     esp.Adornee = childrik
                     esp.ZIndex = 0
                     esp.Size = Vector3.new(4, 5, 1)
-                    esp.Transparency = 0.10
+                    esp.Transparency = 0.4
                     esp.Color3 = Color3.fromRGB(165,42,42)
                     esp.AlwaysOnTop = true
                     esp.Name = "EspBox"
